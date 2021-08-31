@@ -6,6 +6,14 @@
 
 # Predict drug MoA from cell images
 
+Applied a convolutional neural network to images of several cell lines treated with different small molecule drugs. Tweaked hyperparameters, including depth, activation functions, and pre-trained models. Cox, et al. 2020 (https://www.nature.com/articles/s41598-020-69354-8). 
+
+Figure 1: Accuracy of representative CNN model in predicting whether cells were treated GPCR agonist. Prediction accuracy is plotted for training and validation data as the number of epochs increase.    
+
+
+
+Figure 2: Loss (or error) of representative CNN model for training and validation data as the number of epochs increase.   
+
 ### Tools
 
  - Pandas, seaborn, matplotlib
